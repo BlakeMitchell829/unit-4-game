@@ -1,0 +1,64 @@
+body {
+  width:100%;
+  margin: auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 34px;
+  color: #777;
+  background-image: scr=".assets/images/background.jpg";
+}
+
+header {
+  font-size: 2rem;
+  color: white;
+  padding: 10px 30px 10px 5px;
+  margin: 7px,0 7px 7px;
+  background-color: rgb(214, 141, 6);
+  width: 25%;
+  height: 40%;
+  position: relative;
+}
+
+#instructions {
+  background-color: rgb(236, 236, 133);
+  color: rgb(63, 158, 63);
+  width: 50%;
+  margin: 7px 0 7px 7px;
+}
+
+#number {
+  background-color: rgb(73, 168, 73);
+  height: 80px;
+  width: 150px;
+  margin: 0 0 7px 7px;
+  float: left;
+  text-align: center;
+  font-size: 4.5rem;
+}
+
+.crystals{
+  width: 40px;
+  height: auto;
+  margin: 0 0 0 7px;
+}
+
+.score {
+  background-color: rgb(62, 165, 151);
+  color: white;
+  height: 80px;
+  width: 150px;
+  margin: 0 0 7px 7px;
+  float: left;
+  text-align: center;
+  font-size: 1rem;
+}
+#games{
+  background-color: rgba(0, 255, 255, 0.979);
+  height: 80px;
+  width: 70px;
+  display: inline-block;
+  margin: 0 0 7px 7px;
+  font-size: .85rem;
+  color: rgb(9, 9, 65);
+  font: outline;
+}

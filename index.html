@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystals Collector</title>
+    <link rel="stylesheet"type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+   <script>src="https://code.jquery.com/jquery-3.3.1.min.js"</script>
+</head>
+<header>CrystalsCollector!!</header>
+<body>
+        <div id="instructions">
+        <p>You will be given a random number at the start of the game.
+        <br>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your score.
+        </p>
+        <br>
+        <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+        <br>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <br>
+        <p>Each time the game starts, the game will change the values of each crystal.</p>
+    </div>
+    <div id= "number"></div>
+    <div id="games">
+        <p id="Wins">Wins:</p>
+        <p id="Losses">Losses:</p>
+    </div>
+    <br>
+    <div id="crystals">
+        <button image class "crystal" scr="https://cdn.pixabay.com/photo/2015/11/22/19/01/pink-diamond-1056757_960_720.png" data-crystalvalue="10"></button>
+        <button image class "crystal" scr= "file://C:/Users/blake/Desktop/unit-4-game/assets/images/bluediamond.jpg" data-crystalvalue="10"></button>
+        <button image class "crystal" scr= "file://C:/Users/blake/Desktop/unit-4-game/assets/images/yellowjewel.jpg" data-crystalvalue="10"></button>
+        <button image class "crystal" scr= "file://C:/Users/blake/Desktop/unit-4-game/assets/images/green.jpg" data-crystalvalue="10"></button>
+    </div>
+    <div class="score">
+        <p>Your total score is:</p>
+        <br>
+        <p id="score"></p>
+    </div>
+</body>
+<script type="text/javascript" src="./javascript/game.js"></script>
+</html>
