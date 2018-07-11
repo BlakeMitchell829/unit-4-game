@@ -6,12 +6,12 @@
     <title>Crystals Collector</title>
     <link rel="stylesheet"type="text/css" href="./css/reset.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
-   <script>src="https://code.jquery.com/jquery-3.3.1.min.js"</script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 <header>CrystalsCollector!!</header>
 <body>
-        <div id="instructions">
-        <p>You will be given a random number at the start of the game.
+        <div id="instructions">     
+        <p>You will be given a random number at the start of the game.</p>
         <br>
         <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your score.
         </p>
@@ -22,23 +22,31 @@
         <br>
         <p>Each time the game starts, the game will change the values of each crystal.</p>
     </div>
-    <div id= "number"></div>
+    <div id="number"></div>
     <div id="games">
-        <p id="Wins">Wins:</p>
-        <p id="Losses">Losses:</p>
+        <p id="win">Wins:</p>
+        <p id="lost">Losses:</p>
     </div>
     <br>
-    <div id="crystals">
-        <button image class "crystal" scr="https://cdn.pixabay.com/photo/2015/11/22/19/01/pink-diamond-1056757_960_720.png" data-crystalvalue="10"></button>
-        <button image class "crystal" scr= "file://C:/Users/blake/Desktop/unit-4-game/assets/images/bluediamond.jpg" data-crystalvalue="10"></button>
-        <button image class "crystal" scr= "file://C:/Users/blake/Desktop/unit-4-game/assets/images/yellowjewel.jpg" data-crystalvalue="10"></button>
-        <button image class "crystal" scr= "file://C:/Users/blake/Desktop/unit-4-game/assets/images/green.jpg" data-crystalvalue="10"></button>
+    <div class="crystal">
+       <button class="results">
+            <img src="./assets/images/pinkjewel.jpg" height="100px" width="100px">
+        </button>
+        <button class="results">
+            <img src="./assets/images/bluediamond.jpg"height="100px" width="100px">
+        </button>
+        <button class="results">
+            <img src="./assets/images/yellowjewel.jpg"height="100px" width="100px">
+        </button>
+        <button class="results">
+            <img src="./assets/images/green.jpg"height="100px" width="100px">
+        </button>
     </div>
-    <div class="score">
+    </div>
+    <div id="score">
         <p>Your total score is:</p>
-        <br>
-        <p id="score"></p>
+        <p class="score"></p>
     </div>
 </body>
-<script type="text/javascript" src="./javascript/game.js"></script>
+<script type="text/javascript" src="./javascript/javascript.js"></script>
 </html>
